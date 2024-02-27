@@ -19,7 +19,7 @@ public class HomeWorkBot {
         System.out.println("Hello! I'm a bot1, I need information about you. "); // introduction
 
         // first question
-        System.out.print("What is your name? "); // первый вопрос
+        System.out.print("What is your name? ");
         String name = scanner.nextLine();
         if (name.length() > 5) {
             System.out.println("A very difficult name! Nice to meet you " + name + "! (\u2713)");
