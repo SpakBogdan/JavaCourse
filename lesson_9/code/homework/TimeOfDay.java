@@ -15,7 +15,7 @@ public class TimeOfDay {
          currentHour = scanner.nextInt();
 
          while (currentHour < 0 || currentHour > 23) {
-             System.out.println("Wrong input. Please enter a number between 0 and 23.");
+             System.out.println("Wrong input \uD83D\uDFE5 Please enter a number between 0 and 23.");
              System.out.print("Enter the current time from 0 to 23: ");
              currentHour = scanner.nextInt();
             }
