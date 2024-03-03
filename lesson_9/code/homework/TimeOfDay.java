@@ -11,7 +11,7 @@ public class TimeOfDay {
         Scanner scanner = new Scanner(System.in);
          int currentHour;
 
-         System.out.print("Please enter a number between 0 and 23: ");
+         System.out.print("Please enter a number between 0 and 23 \uD83D\uDD50:");
          currentHour = scanner.nextInt();
 
          while (currentHour < 0 || currentHour > 23) {
@@ -21,13 +21,13 @@ public class TimeOfDay {
             }
 
          if (currentHour >= 6 && currentHour < 12) {
-             System.out.println("Have a wonderful and energetic morning! ");
+             System.out.println("Have a wonderful and energetic morning!\uD83C\uDF05 ");
          } else if (currentHour >= 12 && currentHour < 18) {
-             System.out.println("Have a great and productive day! ");
+             System.out.println("Have a great and productive day!\uD83C\uDF1E ");
          } else if (currentHour >= 18 && currentHour < 24) {
-             System.out.println("Have a calm and cozy evening! ");
+             System.out.println("Have a calm and cozy evening!\uD83C\uDF03 ");
          } else if (currentHour >= 0 && currentHour < 6) {
-             System.out.println("Night is the perfect time to relax and recuperate! ");
+             System.out.println("Night is the perfect time to relax and recuperate!\uD83C\uDF19 ");
          }
      }
 }
