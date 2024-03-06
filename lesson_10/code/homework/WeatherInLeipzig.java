@@ -21,6 +21,6 @@ public class WeatherInLeipzig {
             sum += temperature;
         }
         double averageTemperature = sum / temperatures.length;
-        System.out.println("Average temperature over the past week: " + averageTemperature + "° ");
+        System.out.println("Average temperature over the past week in Leipzig: " + averageTemperature + "° ");
     }
 }
