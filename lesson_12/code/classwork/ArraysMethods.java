@@ -55,14 +55,14 @@ public class ArraysMethods {
     // print array
     public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " "); // print current element of array
+            System.out.print(array[i] + " | "); // print current element of array
         }
         System.out.println();
     }
     // print array String[]
     public static void printArray(String[] array) {
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " "); // print current element of array
+            System.out.print(array[i] + " | "); // print current element of array
         }
         System.out.println();
     }

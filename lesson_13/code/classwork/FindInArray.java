@@ -34,8 +34,8 @@ public class FindInArray {
 
     private static int countNegativeElementsInArray(int[] array) {
         int count = 0;
-        for (int i = 0; i < array.length; i++) {
-            if ( array[i] < 0 ) {
+        for (int j : array) {
+            if (j < 0) {
                 count++;
             }
         }
