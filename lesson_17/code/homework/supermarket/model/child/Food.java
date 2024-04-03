@@ -1,8 +1,7 @@
 package homework.supermarket.model.child;
 
 import homework.supermarket.model.parent.Product;
-
-class Food extends Product {
+public class Food extends Product {
     private String expDate;
 
     public Food(double price, String name, long barCode, String expDate) {
@@ -10,10 +9,16 @@ class Food extends Product {
         this.expDate = expDate;
     }
 
+    public String getExpDate() {
+        return expDate;
+    }
+
+    public void setExpDate(String expDate) {
+        this.expDate = expDate;
+    }
+
     @Override
     public String toString() {
-        return "Food{" +
-                "expDate='" + expDate + '\'' +
-                "} " + super.toString();
+        return super.toString() + ", expDate = " + expDate;
     }
 }

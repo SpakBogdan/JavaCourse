@@ -1,6 +1,7 @@
 package homework.supermarket.model.child;
 
-class MeatFood extends Food2 {
+public class MeatFood extends Food{
+
     private String meatType;
 
     public MeatFood(double price, String name, long barCode, String expDate, String meatType) {
@@ -14,5 +15,10 @@ class MeatFood extends Food2 {
 
     public void setMeatType(String meatType) {
         this.meatType = meatType;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", meatType = " + meatType;
     }
 }

@@ -1,6 +1,7 @@
 package homework.supermarket.model.child;
 
-class MilkFood extends Food {
+public class MilkFood extends Food{
+
     private String milkType;
     private double fat;
 
@@ -24,5 +25,10 @@ class MilkFood extends Food {
 
     public void setFat(double fat) {
         this.fat = fat;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", milkType " + milkType + ", fat= " + fat;
     }
 }
