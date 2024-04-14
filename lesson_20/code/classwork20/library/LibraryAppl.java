@@ -1,0 +1,21 @@
+package classwork20.library;
+
+import classwork20.library.controller.Library;
+import classwork20.library.model.Book;
+
+public class LibraryAppl {
+    public static void main(String[] args) {
+
+        Library library = new Library(1000);
+
+        library.addBook(new Book("Война и мир", "Л.Н.Толстой", 2020, 1000000000000L));
+        library.addBook(new Book("Title1", "Author1", 2021, 2000000000000L));
+        library.addBook(new Book("Title2", "Author2", 2023, 3000000000000L));
+
+        System.out.println(library.getSize());
+
+        library.addBook(new Book("Title3", "Author3", 2020, 3000000000000L));
+
+        library.printBooks();
+    }
+}

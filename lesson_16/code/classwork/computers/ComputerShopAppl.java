@@ -1,6 +1,6 @@
 package classwork.computers;
 
-//public class ComputerShopAppl {
+//    public class ComputerShopAppl {
 //    public static void main(String[] args) {
 //        Computer1[] comp = new Computer1[6];
 //
@@ -29,4 +29,4 @@ package classwork.computers;
 //        System.out.println("Total price = " + totalPrice);
 //    }
 //}
-// ghhhhh
+//
